@@ -175,6 +175,7 @@
   } */
 
   .project-cards {
+    min-width: auto;
     margin-bottom: 20px;
   }
 
