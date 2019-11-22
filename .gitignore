@@ -11,12 +11,6 @@
 # production
 /build
 
-# Jekyll stuff
-/_site/
-_site/
-.sass-cache/
-.jekyll-metadata
-
 # misc
 .DS_Store
 .env.local
