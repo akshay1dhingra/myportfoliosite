@@ -14,7 +14,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/* project 1 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} className="project-cards">
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Restaurant Lookup</CardTitle>
                         <CardText>
                             Search app where users search and keep track of restaurants they have been to using Google Places API

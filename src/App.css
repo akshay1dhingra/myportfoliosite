@@ -123,3 +123,62 @@
   display: flex;
   justify-content: space-between;
 }
+
+.project-cards {
+  minWidth: 450px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr {
+    border-top: 1px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+  }
+  
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
+
+  /* .card-action-button-container {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .project-cards {
+    margin-bottom: 20px;
+  }
+
+  .projects-grid {
+    display: grid;
+  }
+}
