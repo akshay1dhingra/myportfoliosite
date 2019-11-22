@@ -25,7 +25,7 @@ class Projects extends Component {
                     </Card>
 
                     {/* project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} className="project-cards">
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >TicTacToe</CardTitle>
                         <CardText>
                             Full stack TicTacToe application with a custom Rails API
@@ -43,7 +43,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/* project 1 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} className="project-cards">
                         <CardTitle style={{ color: 'white', height: '176px', background: 'url(https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f8f09554-8991-4572-b2f6-eb2430e97462/ruby-on-rails.png) center / cover' }} >Gamers Unite</CardTitle>
                         <CardText>
                             Review website where users can write reviews about games. Built with JS and Rails
@@ -58,7 +58,7 @@ class Projects extends Component {
                     </Card>
 
                     {/* project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} className="project-cards">
                         <CardTitle style={{ color: 'white', height: '176px', background: 'url(https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f8f09554-8991-4572-b2f6-eb2430e97462/ruby-on-rails.png) center / cover' }} >Wine Cellar</CardTitle>
                         <CardText>
                             Keep track of your wine collection with this app. Built with Sinatra and ActiveRecord
@@ -73,7 +73,7 @@ class Projects extends Component {
                     </Card>
 
                     {/* project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} className="project-cards">
                         <CardTitle style={{ color: 'white', height: '176px', background: 'url(https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f8f09554-8991-4572-b2f6-eb2430e97462/ruby-on-rails.png) center / cover' }} >CryptoCurrency Tracker</CardTitle>
                         <CardText>
                             Scrapes crypocurrency information and allows users to interact in their terminal
