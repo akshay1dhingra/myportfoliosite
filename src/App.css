@@ -178,18 +178,8 @@
 
   .projects-grid {
     display: grid;
-    /* margin: auto; */
-    /* align-self: center; */
-    /* align-self: center; */
-    /* margin-left: auto; */
   }
 
-  .project-cards {
-    /* align-self: center; */
-    /* align-items: center; */
-    /* margin-left: auto; */
-    /* padding-left: auto; */
-  }
 
   .list-item-phone-number {
     font-size: 20px;
