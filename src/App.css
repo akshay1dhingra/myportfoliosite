@@ -182,11 +182,27 @@
     display: grid;
   }
 
-  .contact-list i {
+  .list-item-phone-number {
+    font-size: 20px;
+    font-family: Anton;
+    padding-left: 3.5em !important;    
+  }
+
+  .list-item-email {
+    padding-left: 0.5em !important;
+  }
+
+  /* .contact-list i { */
     /* display: flex; */
     /* justify-content: center; */
-    text-align: center !important; 
-  }
+    /* text-align: center !important;  */
+  /* } */
+
+  /* .contact-copy {
+    display: inline;
+    text-align: center;
+  } */
+
   .fa-phone-square {
     display: none;
   }

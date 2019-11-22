@@ -16,13 +16,13 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '20px', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="list-item-phone-number" style={{ fontSize: '20px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         (630) 946-4575
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '20px', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="list-item-email" style={{ fontSize: '20px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         akshay1dhingra@gmail.com
                                     </ListItemContent>
