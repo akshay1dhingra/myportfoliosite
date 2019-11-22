@@ -17,7 +17,7 @@ class LandingPage extends Component {
                                 Frontend Engineer
                             </h1>
                             <hr />
-                            <p>REACT | JS/HTML/CSS | NODE.JS | GRAPHQL | RAILS</p>
+                            <p>REACT | JS/HTML/CSS | NODE.JS | GRAPHQL | RAILS!!!</p>
                             <div className="social-links">
                                 <a href="https://linkedin.com/in/akshay1dhingra" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
