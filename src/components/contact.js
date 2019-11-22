@@ -8,11 +8,6 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Akshay Dhingra</h2>
-                        {/* <img
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-                            alt="avatar"
-                            style={{ height: '250px' }}
-                        /> */}
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Available for: Freelance, Fulltime and Contract work (this site was built with React)</p>
                     </Cell>
                     <Cell col={6}>

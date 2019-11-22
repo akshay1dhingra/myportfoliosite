@@ -125,7 +125,7 @@
 }
 
 .project-cards {
-  minWidth: 450px;
+  min-width: 450px;
   margin: auto;
 }
 
@@ -180,5 +180,18 @@
 
   .projects-grid {
     display: grid;
+  }
+
+  .contact-list i {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center !important; 
+  }
+  .fa-phone-square {
+    display: none;
+  }
+
+  .fa-envelope {
+    display: none;
   }
 }
