@@ -20,7 +20,7 @@ function App() {
         </Header>
         <Drawer title="Title">
           <Navigation>
-            <Link to="/">Landing Page</Link>
+            <Link to="/">Home</Link>
             {/* <Link to="/aboutme">About Me</Link> */}
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
