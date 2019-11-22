@@ -18,6 +18,11 @@
 
 .projects-grid {
   display: flex;
+  justify-content: space-between;
+}
+
+.project-cards {
+  margin: auto;
 }
 
 .avatar-img {
@@ -124,11 +129,6 @@
   justify-content: space-between;
 }
 
-.project-cards {
-  min-width: 450px;
-  margin: auto;
-}
-
 @media only screen and (max-width: 768px) {
   .banner-text {
     background-color: black;
@@ -169,18 +169,26 @@
     padding: 8px;
   }
 
-  /* .card-action-button-container {
-    display: flex;
-    justify-content: space-between;
-  } */
 
   .project-cards {
     min-width: auto;
+    margin: auto;
     margin-bottom: 20px;
   }
 
   .projects-grid {
     display: grid;
+    /* margin: auto; */
+    /* align-self: center; */
+    /* align-self: center; */
+    /* margin-left: auto; */
+  }
+
+  .project-cards {
+    /* align-self: center; */
+    /* align-items: center; */
+    /* margin-left: auto; */
+    /* padding-left: auto; */
   }
 
   .list-item-phone-number {
@@ -192,17 +200,6 @@
   .list-item-email {
     padding-left: 0.5em !important;
   }
-
-  /* .contact-list i { */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center !important;  */
-  /* } */
-
-  /* .contact-copy {
-    display: inline;
-    text-align: center;
-  } */
 
   .fa-phone-square {
     display: none;
