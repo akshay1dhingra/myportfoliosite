@@ -14,7 +14,7 @@ class Resume extends Component {
                             <h2 style={{ paddingTop: '.5em' }}>Akshay Dhingra</h2>
                             <h4 style={{ color: 'grey' }}>Frontend Engineer</h4>
                             <hr style={{ borderTop: '3px solid #883fb2', width: '100%' }} />
-                            <p>
+                            <p>HELLO
                                 I began my journey as a developer a bit later than most people you may know, but it was life changing for me.
                                 I graduated from University of Illinois at Chicago with a Biology degree with the plan of going to medical school, but
                                 the downturn of the recession forced me to make a hard decision which lead me to a career in sales. Having worked in
